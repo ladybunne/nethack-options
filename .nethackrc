@@ -1,6 +1,198 @@
-# Ladybunne's .nethackrc
+# Ladybunne's .nethackrc file
+# For NetHack version 3.6.7
 # Created: 2025-06-16
 # Updated: 2025-06-16
- 
-OPTIONS=number_pad:1
 
+OPTIONS=acoustics
+#OPTIONS=align
+#OPTIONS=autodescribe
+OPTIONS=autodig
+OPTIONS=autoopen
+OPTIONS=autopickup
+OPTIONS=autoquiver
+#OPTIONS=blind
+OPTIONS=bones
+OPTIONS=boulder:0
+OPTIONS=catname:Meow
+#OPTIONS=character
+OPTIONS=checkpoint
+#OPTIONS=checkspace
+OPTIONS=!clicklook
+OPTIONS=!cmdassist
+OPTIONS=confirm
+OPTIONS=dark_room
+OPTIONS=disclose:yi ya yv yg yc yo
+OPTIONS=dogname:Woof
+#OPTIONS=extmenu
+#OPTIONS=female
+OPTIONS=fixinv
+#OPTIONS=force_invmenu
+OPTIONS=fruit:chocolate
+OPTIONS=gender:female
+#OPTIONS=goldX
+#OPTIONS=help
+#OPTIONS=herecmd_menu
+OPTIONS=hilite_pet
+OPTIONS=hilite_pile
+#OPTIONS=hilite_status
+OPTIONS=hitpointbar
+OPTIONS=horsename:Honse
+OPTIONS=ignintr
+OPTIONS=!implicit_uncursed
+#OPTIONS=legacy
+OPTIONS=lit_corridor
+#OPTIONS=lootabc
+OPTIONS=mail
+#OPTIONS=male
+#OPTIONS=mention_walls
+OPTIONS=menucolors
+#OPTIONS=menustyle:
+#OPTIONS=menu_deselect_all
+#OPTIONS=menu_deselect_page
+#OPTIONS=menu_first_page
+#OPTIONS=menu_headings
+#OPTIONS=menu_invert_all
+#OPTIONS=menu_invert_page
+#OPTIONS=menu_last_page
+#OPTIONS=menu_next_page
+OPTIONS=menu_objsyms
+#OPTIONS=menu_overlay
+#OPTIONS=menu_previous_page
+#OPTIONS=menu_search
+#OPTIONS=menu_select_all
+#OPTIONS=menu_select_page
+#OPTIONS=menu_tab_sep
+OPTIONS=msghistory:60
+OPTIONS=msg_window:combination
+OPTIONS=name:Ladybunne
+#OPTIONS=news
+#OPTIONS=nudist
+#OPTIONS=null
+OPTIONS=number_pad:1
+#OPTIONS=packorder
+#OPTIONS=paranoid_confirmation
+#OPTIONS=pauper
+#OPTIONS=perm_invent
+#OPTIONS=pettype
+OPTIONS=pickup_burden:S
+OPTIONS=pickup_thrown
+OPTIONS=pickup_types:$"%?+!=/*
+#OPTIONS=pile_limit
+#OPTIONS=playmode
+OPTIONS=!pushweapon
+#OPTIONS=race
+OPTIONS=!rest_on_space
+#OPTIONS=role
+#OPTIONS=roguesymset
+#OPTIONS=rlecomp
+#OPTIONS=runmode
+OPTIONS=safe_pet
+#OPTIONS=sanity_check
+OPTIONS=scores:10t 2a o
+OPTIONS=showexp
+OPTIONS=!showrace
+OPTIONS=showscore
+#OPTIONS=silent
+#OPTIONS=sortloot
+OPTIONS=sortpack
+OPTIONS=sparkle
+#OPTIONS=standout
+#OPTIONS=statushilites
+#OPTIONS=statuslines
+#OPTIONS=suppress_alert
+#OPTIONS=symset
+OPTIONS=time
+#OPTIONS=timed_delay
+#OPTIONS=tips
+OPTIONS=tombstone
+#OPTIONS=toptenwin
+OPTIONS=travel
+OPTIONS=verbose
+#OPTIONS=vt_tiledata
+OPTIONS=whatis_coord:s
+OPTIONS=whatis_filter:v
+#OPTIONS=whatis_menu
+#OPTIONS=whatis_moveskip
+#OPTIONS=windowtype
+#OPTIONS=wizkit
+#OPTIONS=zerocomp
+
+#OPTIONS=align_message
+#OPTIONS=align_status
+#OPTIONS=ascii_map
+OPTIONS=color
+#OPTIONS=eight_bit_tty
+#OPTIONS=font_map
+#OPTIONS=font_menu
+#OPTIONS=font_messages
+#OPTIONS=font_status
+#OPTIONS=font_text
+#OPTIONS=font_size_map
+#OPTIONS=font_size_menu
+#OPTIONS=font_size_message
+#OPTIONS=font_size_status
+#OPTIONS=font_size_text
+#OPTIONS=fullscreen
+#OPTIONS=large_font
+#OPTIONS=map_mode
+OPTIONS=!mouse_support
+#OPTIONS=player_selection
+#OPTIONS=popup_dialog
+#OPTIONS=preload_tiles
+#OPTIONS=scroll_amount
+#OPTIONS=scroll_margin
+#OPTIONS=softkeyboard
+#OPTIONS=splash_screen
+#OPTIONS=tile_width
+#OPTIONS=tile_height
+#OPTIONS=tile_file
+#OPTIONS=use_darkgray
+#OPTIONS=use_inverse
+#OPTIONS=vary_msgcount
+#OPTIONS=windowcolours
+#OPTIONS=wraptext
+
+#OPTIONS=altkeyhandler
+OPTIONS=altmeta
+#OPTIONS=BIOS
+OPTIONS=DECgraphics
+#OPTIONS=flush
+#OPTIONS=IBMgraphics
+#OPTIONS=MacGraphics
+#OPTIONS=page_wait
+#OPTIONS=rawio
+#OPTIONS=soundcard
+#OPTIONS=subkeyvalue
+#OPTIONS=video
+#OPTIONS=videocolors
+#OPTIONS=videoshades
+
+#AUTOCOMPLETE=
+#BIND=
+#CHOOSE=
+#SOUND=
+#WARNINGS=
+
+AUTOPICKUP_EXCEPTION="> corpse"
+AUTOPICKUP_EXCEPTION="<lichen corpse"
+AUTOPICKUP_EXCEPTION="<lizard corpse"
+AUTOPICKUP_EXCEPTION="<newt corpse"
+AUTOPICKUP_EXCEPTION="<floating eye corpse"
+AUTOPICKUP_EXCEPTION="<wraith corpse"
+
+AUTOPICKUP_EXCEPTION="> loadstone"
+AUTOPICKUP_EXCEPTION="<stone called luck"
+AUTOPICKUP_EXCEPTION="< luckstone"
+#AUTOPICKUP_EXCEPTION="< touchstone"
+AUTOPICKUP_EXCEPTION="> rock"
+AUTOPICKUP_EXCEPTION="> gray stone"
+
+AUTOPICKUP_EXCEPTION="<<"
+AUTOPICKUP_EXCEPTION=">>"
+
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" uncursed "=blue
+MENUCOLOR=" gold piece"=yellow
+
+#MSGTYPE=
