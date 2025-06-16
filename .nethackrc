@@ -1,0 +1,6 @@
+# Ladybunne's .nethackrc
+# Created: 2025-06-16
+# Updated: 2025-06-16
+ 
+OPTIONS=number_pad:1
+
