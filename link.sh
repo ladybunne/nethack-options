@@ -1,10 +1,10 @@
-#! /usr/bin/env bash
+#! /bin/bash
 
 # link .nethackrc here to ~/.nethackrc where it is read
-# NOTE: removes existing .nethackrc
+# NOTE: silently removes existing .nethackrc
 
-rm ~/.nethackrc
-ln $PWD/.nethackrc ~/.nethackrc
+rm ~/.nethackrc &> /dev/null
+ln $( dirname "$0" )/.nethackrc ~/.nethackrc
 if [ $? -eq 0 ]; then
     echo Settings successfully linked.
 fi
